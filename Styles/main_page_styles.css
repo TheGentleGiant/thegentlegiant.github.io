@@ -1,0 +1,112 @@
+/*FONTS*/
+@font-face {
+  font-family: audiwide_regular;
+  src: URL('../Fonts/Audiowide-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: metalord;
+  src: url('../Fonts/METALORD.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: neuropol;
+  src: url('../Fonts/NEUROPOL.ttf')format('truetype');
+}
+
+@font-face {
+  font-family: pdark;
+  src: url('../Fonts/pdark.ttf')format('truetype');
+}
+
+/*MAIN PAGE BODY*/
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+/*LEFT PANEL*/
+.leftpanel {
+  width: 10%;
+  height: 100vh;
+  background-color: white;
+}
+
+.navbar {
+  list-style-type: none;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  width: 10%;
+  min-width: 150px;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.navbar element {
+  font-family: audiwide_regular;
+  display: block;
+  float: left; /* Make sure that the links stay side-by-side */
+  color: blue; /* White text color */
+  text-align: left; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+  width: 10vw;
+  min-width: 100px;
+}
+
+/* Left-aligned link */
+.navbar element.left {
+  float: left; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar element:hover {
+background-color: #dddddd5d; /* Grey background color */
+color: black; /* Black text color */
+/*width: 100%;*/
+}
+
+/*MIDDLE PANEL*/
+.main-   {
+  width: 90%;
+  height: 100vh;
+  background-image: url('../Images/blur-close-up-controller-159393___serialized4.jpg');
+  background-size: cover;
+  transform: 0.3s;
+}
+
+.main-content mid_header {
+  font-family: neuropol;
+  margin: 10px;
+  padding: 10px;
+  color: azure;
+  font-size: 70px;
+}
+
+.main-content mid_paragraph {
+  font-family: neuropol;
+  margin-left: 10%;
+  margin: 10px;
+  padding: 10px;
+  color: azure;
+  font-size: 35px;
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+/*BASE OVERRIDES*/
+H1 {
+  font-family: neuropol;
+  color: aquamarine;
+  font-size: 70px;
+}
+
+p {
+  font-family: neuropol;
+}

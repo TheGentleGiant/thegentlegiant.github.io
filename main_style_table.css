@@ -1,0 +1,26 @@
+:root {
+    --main-margin-size : 100px;
+}
+
+body {
+    font-family: 'Consolas', 'Courier New', monospace;
+    margin-left: var(--main-margin-size);
+}
+
+.sidebar {
+    width: var(--main-margin-size);
+    height: 100vh;
+    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar-button {
+    width: var(--main-margin-size);
+    height: 50px;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
